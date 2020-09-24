@@ -1,0 +1,11 @@
+.button {
+  font-family: "PT Sans", sans-serif;
+  background-color: #ff6b18;
+  border-radius: 53px;
+  border: none;
+  padding: 1rem 1.875rem;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}

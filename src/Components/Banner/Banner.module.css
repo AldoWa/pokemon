@@ -59,3 +59,16 @@
     margin-bottom: 2.3rem;
   }
 }
+
+@media (max-width: 430px) {
+  .image img {
+    top: 60px;
+  }
+  .detailsArea h2 {
+    font-size: 1.5rem;
+  }
+  .detailsArea button {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+}

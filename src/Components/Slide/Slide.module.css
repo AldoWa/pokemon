@@ -42,3 +42,13 @@
     left: 12%;
   }
 }
+
+@media (max-width: 430px) {
+  .arrowLeft {
+    top: 85%;
+  }
+  .arrowRight {
+    top: 85%;
+    left: 35%;
+  }
+}

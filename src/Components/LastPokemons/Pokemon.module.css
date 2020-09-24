@@ -49,15 +49,26 @@
     flex-shrink: 0;
     padding: 0;
 
-    width: 421px;
+    width: 86vw;
     height: 304px;
-    display: flex;
     justify-content: center;
   }
   .pokemonOtherArea img {
     margin: 0 auto;
   }
   .newPokemonArea {
-    padding: 0 2rem;
+    padding: 0 1.79rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .newPokemonArea {
+    padding: 0 1.6rem;
+  }
+}
+
+@media (max-width: 321px) {
+  .newPokemonArea {
+    padding: 0 1.4rem;
   }
 }

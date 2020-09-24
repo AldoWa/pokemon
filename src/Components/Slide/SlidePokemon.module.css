@@ -11,6 +11,9 @@
 .arrowRight {
   position: absolute;
   z-index: 1000;
+  top: 16%;
+  border-radius: 50%;
+  padding: 12px;
   border: none;
   outline: none;
   cursor: pointer;
@@ -20,16 +23,10 @@
 
 .arrowLeft {
   left: 10px;
-  top: 18%;
-  border-radius: 50%;
-  padding: 12px;
 }
 
 .arrowRight {
   right: 10px;
-  top: 18%;
-  border-radius: 50%;
-  padding: 12px;
 }
 
 .ball.active {

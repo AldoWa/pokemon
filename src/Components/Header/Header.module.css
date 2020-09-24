@@ -29,13 +29,9 @@
   align-items: center;
   flex: 1 1 400px;
 }
-
-.leftContent h1 {
-  margin-left: 2.125rem;
-  color: #ff6b18;
-  font-family: var(--type-first);
+.leftContent svg {
+  margin-left: 1.5625rem;
 }
-
 .nav {
   display: flex;
   flex: 1;
@@ -62,5 +58,10 @@
   }
   .header {
     padding: 1.2rem;
+  }
+
+  .leftContent svg {
+    width: 130px;
+    margin-left: 1rem;
   }
 }

@@ -7,17 +7,17 @@ const RedesSociais = () => {
   return (
     <ul>
       <li>
-        <a href="#">
+        <a href="https://www.facebook.com/">
           <Facebook />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.instagram.com/">
           <Instagram />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.youtube.com/">
           <Youtube />
         </a>
       </li>

@@ -4,6 +4,7 @@ import styles from "./Header.module.css";
 
 import Button from "../Button/Button";
 import RedesSocais from "../Helper/RedesSociais";
+import { ReactComponent as TesteWeb } from "../../Assets/Teste web.svg";
 
 const Header = () => {
   return (
@@ -11,7 +12,7 @@ const Header = () => {
       <header className={`${styles.header} container`}>
         <div className={styles.leftContent}>
           <div className={styles.menuMobile}></div>
-          <h1>Teste Web</h1>
+          <TesteWeb />
         </div>
         <nav className={styles.nav}>
           <Button />

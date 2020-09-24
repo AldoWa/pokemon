@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: relative;
-  background-color: #f3be00;
+
   padding: 6.125rem 5.875rem;
   margin-top: 2.5rem;
 }
@@ -37,6 +37,29 @@
   top: 40px;
 }
 
+.areaLeft,
+.areaRight {
+  position: absolute;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.areaLeft {
+  left: -24px;
+  top: 220px;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.areaRight {
+  right: -24px;
+  top: 220px;
+  border-radius: 50%;
+  padding: 12px;
+}
+
 @media (max-width: 1110px) {
   .gridContainer {
     overflow: hidden;
@@ -44,9 +67,17 @@
     margin-top: 0;
   }
   .detailsArea h2 {
-    font-size: 2.5rem;
+    font-size: 2.45rem;
   }
   .image img {
     width: 400px;
+  }
+  .areaLeft {
+    left: 60px;
+    top: 400px;
+  }
+  .areaRight {
+    right: 310px;
+    top: 400px;
   }
 }

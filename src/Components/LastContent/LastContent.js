@@ -1,19 +1,36 @@
 import React from "react";
+
 import Pokemon from "../LastPokemons/Pokemon";
-import styles from "./LastContet.module.css";
 import Button from "../../Components/Button/Button";
 import pikachu from "../../Assets/pikachu.png";
 import pokerbola from "../../Assets/pokerbola.png";
 
+import SlidePokemon from "../Slide/SlidePokemon";
+
+import useMedia from "../../Hooks/useMedia";
+
+import styles from "./LastContet.module.css";
+
 const LastContent = () => {
+  const match = useMedia("(max-width: 640px)");
+  console.log(match);
   return (
     <section className={`container ${styles.containerLastContent}`}>
-      <div className={styles.containerPokemons}>
-        <Pokemon type={2} name={"pikachu"} />
-        <Pokemon type={2} name={"ivysaur"} />
-        <Pokemon type={2} name={"bulbasaur"} />
-        <Pokemon type={2} name={"charizard"} />
-      </div>
+      {match ? (
+        <SlidePokemon>
+          <Pokemon type={2} name={"pikachu"} />
+          <Pokemon type={2} name={"ivysaur"} />
+          <Pokemon type={2} name={"bulbasaur"} />
+          <Pokemon type={2} name={"charizard"} />
+        </SlidePokemon>
+      ) : (
+        <div className={styles.containerPokemons}>
+          <Pokemon type={2} name={"pikachu"} />
+          <Pokemon type={2} name={"ivysaur"} />
+          <Pokemon type={2} name={"bulbasaur"} />
+          <Pokemon type={2} name={"charizard"} />
+        </div>
+      )}
 
       <aside className={styles.aside}>
         <div

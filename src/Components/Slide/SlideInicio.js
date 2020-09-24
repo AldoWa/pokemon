@@ -3,8 +3,7 @@ import React from "react";
 import Banner from "../Banner/Banner";
 import styles from "./Slide.module.css";
 
-import { ReactComponent as ArrowLeft } from "../../Assets/arrow-left.svg";
-import { ReactComponent as ArrowRight } from "../../Assets/arrow-right.svg";
+import Arrow from "../Helper/Arrow";
 
 const Slide = () => {
   const [active, setActive] = React.useState(0);
@@ -55,14 +54,7 @@ const Slide = () => {
           />
         </div>
 
-        <nav>
-          <button onClick={prevSlide} className={styles.areaLeft}>
-            <ArrowLeft />
-          </button>
-          <button onClick={nextSlide} className={styles.areaRight}>
-            <ArrowRight />
-          </button>
-        </nav>
+        <Arrow nextSlide={nextSlide} prevSlide={prevSlide} styles={styles} />
       </div>
     </section>
   );

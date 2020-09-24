@@ -4,9 +4,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
-.containerPokemons {
-  padding: 0 2rem;
-}
+
 .containerLastContent {
   margin-top: 3.5rem;
 }
@@ -60,5 +58,8 @@
   .yellowCard button {
     display: block;
     margin: 0 auto;
+  }
+  .containerPokemons {
+    padding: 0 2rem;
   }
 }

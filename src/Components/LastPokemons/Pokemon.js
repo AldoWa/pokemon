@@ -16,6 +16,7 @@ const Pokemon = ({ name, type }) => {
         console.log(err);
       }
     }
+
     loadPokemon();
   }, [name]);
 

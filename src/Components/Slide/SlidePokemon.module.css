@@ -1,0 +1,51 @@
+.slide {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.wrapperCarrosel {
+  overflow: hidden;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arrowLeft {
+  left: 10px;
+  top: 18%;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.arrowRight {
+  right: 10px;
+  top: 18%;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.ball.active {
+  background-color: #ff6b18;
+}
+
+.ball {
+  width: 12px;
+  height: 12px;
+  background-color: #c4c4c4;
+  border-radius: 50%;
+  display: inline-block;
+  text-indent: -1000px;
+  margin-left: 0.2rem;
+}
+.slideLoc {
+  display: flex;
+  justify-content: center;
+}

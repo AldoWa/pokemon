@@ -33,7 +33,31 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-
+.pokemonOtherArea img {
+  display: block;
+}
+.newPokemonArea {
+  display: flex;
+  flex-direction: column;
+}
 .newPokemonArea h4 {
   margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+  .pokemonOtherArea {
+    flex-shrink: 0;
+    padding: 0;
+
+    width: 421px;
+    height: 304px;
+    display: flex;
+    justify-content: center;
+  }
+  .pokemonOtherArea img {
+    margin: 0 auto;
+  }
+  .newPokemonArea {
+    padding: 0 2rem;
+  }
 }

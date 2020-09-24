@@ -5,14 +5,18 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Slide from "./Components/Slide/Slide";
 import LastPokemons from "./Components/LastPokemons/LastPokemons";
+import LastContent from "./Components/LastContent/LastContent";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <Slide />
       <LastPokemons />
-    </div>
+      <LastContent />
+      <Footer />
+    </>
   );
 }
 

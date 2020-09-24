@@ -6,14 +6,14 @@ import styles from "./LastPokemons.module.css";
 const LastPokemons = () => {
   return (
     <section className={`${styles.section} container`}>
-      <h4>Últimos pokemos</h4>
+      <h4 className="formatedSubTitle">Últimos pokemos</h4>
       <div className={styles.pokemonArea}>
-        <Pokemon name={"charizard"} />
-        <Pokemon name={"mewtwo"} />
-        <Pokemon name={"ditto"} />
-        <Pokemon name={"gengar"} />
-        <Pokemon name={"dragonite"} />
-        <Pokemon name={"pikachu"} />
+        <Pokemon type={1} name={"charizard"} />
+        <Pokemon type={1} name={"mewtwo"} />
+        <Pokemon type={1} name={"ditto"} />
+        <Pokemon type={1} name={"gengar"} />
+        <Pokemon type={1} name={"dragonite"} />
+        <Pokemon type={1} name={"pikachu"} />
       </div>
     </section>
   );

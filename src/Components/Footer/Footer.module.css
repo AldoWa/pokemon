@@ -1,0 +1,71 @@
+.footer {
+  margin-top: 4.5625rem;
+  padding: 1.8125rem 0 0.875rem 0;
+}
+
+.nav {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li a {
+  border: 1px solid #ffebe0;
+  padding: 0.625rem 0.8125rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+  display: block;
+}
+
+.upContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1.32rem;
+}
+
+.redesSociais {
+  display: flex;
+  align-items: center;
+}
+
+.redesSociais p {
+  font-family: Roboto;
+  color: #666666;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-right: 0.875rem;
+}
+
+.redesSociais p::before {
+  content: "";
+  background: url("../../Assets/mail.svg") no-repeat center center;
+  width: 16px;
+  height: 12px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 0.875rem;
+}
+
+.bottomContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.95rem;
+}
+
+.bottomContent small {
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #666666;
+}

@@ -7,7 +7,7 @@ import RedesSocais from "../Helper/RedesSociais";
 
 const Header = () => {
   return (
-    <div className={styles.bgBack}>
+    <div className="bgWhite">
       <header className={`${styles.header} container`}>
         <div className={styles.leftContent}>
           <div className={styles.menuMobile}></div>

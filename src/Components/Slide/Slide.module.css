@@ -1,0 +1,43 @@
+.areaLeft,
+.areaRight {
+  position: absolute;
+  z-index: 1000;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.areaLeft {
+  left: -25px;
+  top: 50%;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.areaRight {
+  right: -25px;
+  top: 50%;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+.slideContainer {
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 1110px) {
+  .areaRight {
+    top: 400px;
+    left: 24%;
+  }
+
+  .areaLeft {
+    top: 400px;
+    left: 12%;
+  }
+}

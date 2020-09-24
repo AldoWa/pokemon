@@ -4,9 +4,6 @@ import styles from "./Banner.module.css";
 import charizard from "../../Assets/hero-banner__image.png";
 import Button from "../Button/Button";
 
-import { ReactComponent as ArrowLeft } from "../../Assets/arrow-left.svg";
-import { ReactComponent as ArrowRight } from "../../Assets/arrow-right.svg";
-
 const Banner = ({ title, subtitle, description, color }) => {
   return (
     <div
@@ -22,13 +19,6 @@ const Banner = ({ title, subtitle, description, color }) => {
       <div className={styles.image}>
         <img src={charizard} alt="charizard" />
       </div>
-
-      <button className={styles.areaLeft}>
-        <ArrowLeft />
-      </button>
-      <button className={styles.areaRight}>
-        <ArrowRight />
-      </button>
     </div>
   );
 };

@@ -17,10 +17,6 @@
   box-shadow: 0 6px currentColor, 0 -6px currentColor;
 }
 
-.bgBack {
-  background-color: #ffff;
-}
-
 .header {
   display: flex;
   align-items: center;
@@ -57,6 +53,7 @@
   padding: 0.625rem 0.8125rem;
   border-radius: 50%;
   margin-left: 1rem;
+  display: block;
 }
 
 @media (max-width: 1110px) {

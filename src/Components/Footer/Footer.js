@@ -21,7 +21,9 @@ const Footer = () => {
         </header>
         <div className={styles.bottomContent}>
           <small>2020 © Todos os direitos reservados.</small>
-          <Logo />
+          <div className={styles.logo}>
+            <Logo />
+          </div>
         </div>
       </div>
     </footer>

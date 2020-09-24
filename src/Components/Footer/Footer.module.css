@@ -1,6 +1,6 @@
 .footer {
   margin-top: 4.5625rem;
-  padding: 1.8125rem 0 0.875rem 0;
+  padding: 1.8125rem 2rem 0.875rem 2rem;
 }
 
 .nav {
@@ -68,4 +68,65 @@
   font-weight: 400;
   line-height: 1;
   color: #666666;
+}
+@media (max-width: 980px) {
+  .footer {
+    margin-top: 0;
+  }
+}
+@media (max-width: 720px) {
+  .footer {
+    margin-top: 0;
+  }
+
+  .upContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom: none;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .upContent > svg {
+    grid-row: 2;
+    margin: 2rem auto 1rem auto;
+  }
+  .redesSociais::after {
+    content: "";
+    width: 350px;
+    height: 1px;
+    background-color: #6666;
+    display: block;
+    margin-top: 2rem;
+  }
+  .redesSociais {
+    flex-direction: column;
+  }
+  .redesSociais p {
+    margin-bottom: 1.5rem;
+    margin-right: 0;
+  }
+
+  .bottomContent {
+    flex-direction: column;
+  }
+  .bottomContent small {
+    margin-bottom: 4rem;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo::before {
+    display: block;
+    content: "Desenvolvido por";
+    font-family: Roboto;
+
+    font-weight: 400;
+    font-size: 0.7875rem;
+    line-height: 1.125rem;
+    color: #666666;
+    margin-bottom: 3px;
+  }
 }

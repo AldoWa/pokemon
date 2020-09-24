@@ -12,7 +12,6 @@ const Pokemon = ({ name, type }) => {
         const response = await fetch(url, options);
         const json = await response.json();
         setPokemon(json);
-        console.log(json);
       } catch (err) {
         console.log(err);
       }

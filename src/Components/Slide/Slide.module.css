@@ -1,0 +1,52 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  background-color: #f3be00;
+  padding: 6.125rem 5.875rem;
+  margin-top: 2.5rem;
+}
+
+.detailsArea span {
+  font-family: var(--type-first);
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.4375rem;
+  color: white;
+}
+
+.detailsArea h2 {
+  font-family: var(--type-first);
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 1.625rem;
+}
+
+.detailsArea p {
+  font-family: var(--type-first);
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: white;
+  max-width: 271px;
+  margin-bottom: 3.1875rem;
+}
+.image img {
+  position: absolute;
+  top: 40px;
+}
+
+@media (max-width: 1110px) {
+  .gridContainer {
+    overflow: hidden;
+    padding: 6.5625rem 2rem;
+    margin-top: 0;
+  }
+  .detailsArea h2 {
+    font-size: 2.5rem;
+  }
+  .image img {
+    width: 400px;
+  }
+}

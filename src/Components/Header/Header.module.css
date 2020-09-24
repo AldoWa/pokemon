@@ -59,5 +59,11 @@
   margin-left: 1rem;
 }
 
-.nav ul li a svg > * {
+@media (max-width: 1110px) {
+  .header button {
+    display: none;
+  }
+  .header {
+    padding: 1.2rem;
+  }
 }

@@ -25,3 +25,14 @@
   display: flex;
   justify-content: center;
 }
+
+.wrapperCarrosel nav {
+  justify-content: space-between;
+  padding: 1rem;
+  bottom: 150px;
+}
+
+.wrapperCarrosel nav button {
+  margin-left: 0;
+  margin-right: 0;
+}

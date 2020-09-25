@@ -22,7 +22,12 @@
 @media (max-width: 1100px) {
   .nav {
     justify-content: center;
-    width: 100%;
+    width: 105%;
+    left: -9px;
     bottom: 85px;
+  }
+  .arrowLeft,
+  .arrowRight {
+    margin: 0 15px;
   }
 }

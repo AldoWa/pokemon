@@ -28,11 +28,17 @@
 
 .wrapperCarrosel nav {
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.3rem;
   bottom: 150px;
 }
 
 .wrapperCarrosel nav button {
   margin-left: 0;
   margin-right: 0;
+}
+
+@media (min-width: 555px) {
+  .wrapperCarrosel nav button {
+    margin-right: 1rem;
+  }
 }

@@ -13,7 +13,7 @@ import styles from "./LastContet.module.css";
 
 const LastContent = () => {
   const match = useMedia("(max-width: 640px)");
-  console.log(match);
+  if (match === null) return null;
   return (
     <section className={`container ${styles.containerLastContent}`}>
       {match ? (

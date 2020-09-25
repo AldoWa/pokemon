@@ -31,14 +31,14 @@
 
 .pikachu img {
   position: absolute;
-  right: -100px;
-  top: 430px;
+  right: -1px;
+  top: 452px;
 }
 
 .pokerbola img {
   position: absolute;
   top: 600px;
-  left: 100px;
+  left: 30px;
 }
 
 @media (max-width: 980px) {

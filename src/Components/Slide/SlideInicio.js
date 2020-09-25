@@ -1,7 +1,7 @@
 import React from "react";
 
 import Banner from "../Banner/Banner";
-import styles from "./Slide.module.css";
+import styles from "./SlideInicio.module.css";
 
 import Arrow from "../Helper/Arrow";
 
@@ -54,7 +54,7 @@ const Slide = () => {
           />
         </div>
 
-        <Arrow nextSlide={nextSlide} prevSlide={prevSlide} styles={styles} />
+        <Arrow nextSlide={nextSlide} prevSlide={prevSlide} />
       </div>
     </section>
   );

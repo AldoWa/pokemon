@@ -7,6 +7,7 @@
   width: 100%;
   padding: 6.125rem 5.875rem;
   margin-top: 2.5rem;
+  margin-bottom: 65px;
 }
 
 .detailsArea span {
@@ -38,7 +39,7 @@
 
 .image img {
   position: absolute;
-  top: 25px;
+  top: 40px;
   margin-right: 5.25rem;
 }
 
@@ -59,7 +60,11 @@
     margin-bottom: 2.3rem;
   }
 }
-
+@media (min-width: 1110px) {
+  .image img {
+    top: 75px;
+  }
+}
 @media (max-width: 430px) {
   .image img {
     top: 60px;

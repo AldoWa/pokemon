@@ -1,0 +1,9 @@
+.slideContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  transition: transform 0.3s ease;
+}

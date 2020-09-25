@@ -37,7 +37,7 @@ const SlidePokemon = ({ children }) => {
         {children}
       </div>
 
-      <Arrow prevSlide={prevSlide} nextSlide={nextSlide} styles={styles} />
+      <Arrow prevSlide={prevSlide} nextSlide={nextSlide} />
 
       <div className={styles.slideLoc}>
         {children.map((item, index) => {
